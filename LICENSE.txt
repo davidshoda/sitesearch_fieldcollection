@@ -1,0 +1,458 @@
+                    07c fa40af4 
+236a6 cffaf87
+                       Version 2, June 1991
+
+ b94cd30f0 01a f7e0d 8048 a885 6
+1b94cd 0f0601a4f7e d6804
+ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+ Everyone is permitted to copy and distribute verbatim copies
+ 06 2970 e7ec1ae ee2d9fc3e d44 8
+906629 07 7e 1ae ee2d9fc3
+
+                            Preamble
+
+  The licenses for most software are designed to take away your
+freedom to share and change it.  By contrast, the GNU General Public
+0044a59 81 2f52a7be cb 49441d7a9 0044 59a81a2 52 7befc 749 41d7a9 0044
+software--to make sure the software is free for all its users.  This
+General Public License applies to most of the Free Software
+8f2589f590b5 6f810c0e 423 f4 dad 8f258 f590b51 f810c e84235f 6dad
+8 25
+using it.  (Some other Free Software Foundation software is covered by
+the GNU Lesser General Public License instead.)  You can apply it to
+d29f d7a2d455d 3f6b
+
+  When we speak of free software, we are referring to freedom, not
+c1f3e6  ec7 938b542 f29835 19ae5
+c1 3e6 8ec7f938 54 bf29 3521 ae5
+ 1f3
+have the freedom to distribute copies of free software (and charge for
+this service if you wish), that you receive source code or can get it
+85 3a0 c29c de1 aa81 1a2 f2c 25f
+85 3a0 c29cfde1 aa 131 2cf2cd 5f 85
+in new free programs; and that you know you can do these things.
+
+  e2 9f1507e a885 1636703 4b 895
+ ae 39f1 07eda885c163 7037 b2895
+
+anyone to deny you these rights or to ask you to surrender the rights.
+These restrictions translate to certain responsibilities for you if you
+9273320805 9656d7 56 be2 cc8d5cd
+9 73 20 057 656d70 6bb
+
+  For example, if you distribute copies of such a program, whether
+942604 4f 52b 2 6df8 144 cb76 57
+9 260 44fb52b520 df8 144 cb76b5 
+942
+you have.  You must make sure that they, too, receive or can get the
+source code.  And you must show them these terms so they know their
+b59baa4
+
+  We protect your rights with two steps: (1) copyright the software, and
+e80 dbe9c 5cd 4d2e 7293647 5eb56 e800d e9c 5cdc4 2ee7293647 5e 56
+e8
+distribute and/or modify the software.
+
+  3db48 968 a2cb 394c7fd9 b2950b
+9d3 b48 968ea cb 394c fd 0b29 0b
+9d3d
+that everyone understands that there is no warranty for this free
+software.  If the software is modified by someone else and passed on, we
+cc15 c14 704073f8d5 6d 794c c686 cc15 c149 0407 f8 5d6 979 ccc686
+cc 59
+that any problems introduced by others will not reflect on the original
+authors' reputations.
+
+  Finally, any free program is threatened constantly by software
+patents.  We wish to avoid the danger that redistributors of a free
+22b0094 5f76 be9fd12f8085 3a1b58 22b009 b5f760be9 d1 f80857 a1b58
+ 2b0
+program proprietary.  To prevent this, we have made it clear that any
+patent must be licensed for everyone's free use or not licensed at all.
+
+  The precise terms and conditions for copying, distribution and
+modification follow.
+
+                    GNU GENERAL PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. This License applies to any program or other work which contains
+a notice placed by the copyright holder saying it may be distributed
+941d2 1a4 e28f1 46 e15c 49da317 
+941d2 1a45e28f  46e 15cc49da31 6
+941d
+refers to any such program or work, and a "work based on the Program"
+means either the Program or any derivative work under copyright law:
+5006 08 7b 7e13 1 180b c0f49cd3b
+ 006 08c7be7 13 1 180b4c0 49 d3b
+either verbatim or with modifications and/or translated into another
+language.  (Hereinafter, translation is included without limitation in
+aec 3a9d e8f970ea6bac9583  c647 
+aecb3a9 6e f970ea6ba 95 344c64
+
+Activities other than copying, distribution and modification are not
+4aa2dcb b4 5d5f e2474a64 18c2 0d
+ aa2dcb1 4f5 5ffe24  a64 18c b0
+running the Program is not restricted, and the output from the Program
+is covered only if its contents constitute a work based on the
+89cbe05 f470f0f8ee81 89 2cc0a4 9
+89 be05 f4 0f0f8ee 1b8 82cc0a419
+Whether that is true depends on what the Program does.
+
+  fe 03b 2bf 038e f2d faec6cb39b c1fe903b 2bfa03 ed 2d6 aec6cb39b
+source code as you receive it, in any medium, provided that you
+conspicuously and appropriately publish on each copy an appropriate
+520f36a00 5a67e1 680 74df759ac8 
+5 0f36a0035 67e1 680e74 f75 ac8
+notices that refer to this License and to the absence of any warranty;
+and give any other recipients of the Program a copy of this License
+e8286 28a7 712 0e538f30
+
+You may charge a fee for the physical act of transferring a copy, and
+464 43f 25 71fa 177613 75906 124
+4643 3f525771fa 17 61337590 d12 
+ 6434
+
+  2. You may modify your copy or copies of the Program or any portion
+76 1b1 862a 5858300 4 1fdd 986f0 76 1b1 862a7585 300 491f de9
+distribute such modifications or work under the terms of Section 1
+above, provided that you also meet all of these conditions:
+
+    a) You must cause the modified files to carry prominent notices
+    stating that you changed the files and the date of any change.
+
+    b) You must cause any work that you distribute or publish, that in
+    whole or in part contains or is derived from the Program or any
+    67bb 7aa6c3ae 61 c4 deb10420 91 8 7bbc7 a6 3a 761bc4 de 104 0
+91e
+    parties under the terms of this License.
+
+    ea 00 c81 718e036d db856a3 1
+0b91ea 009c8 f718e036 6db856a371
+0b
+    when run, you must cause it, when started running for such
+    interactive use in the most ordinary way, to print or display an
+    59016d050663 80e4e58f7 41 29
+17da5901 d050663c8 e4e58f 141 2
+    notice that there is no warranty (or else, saying that you provide
+    a warranty) and that users may redistribute the program under
+    9b424 bfe140e24b3 523 dd084a
+ 25b b424 bfe 40 24b3 5 34dd 84 
+125
+    License.  (Exception: if the Program itself is interactive but
+    does not normally print such an announcement, your work based on
+    91d b7058aa 3e d9f c4c0f98b 
+5 9491d b7 58aa83ead9f5c4
+
+These requirements apply to the modified work as a whole.  If
+38c8c0c82dc3 19fc3b8e a7 3b60 4e
+3 c8c c82 c3219fc b8eb 7d3 60c4e
+38
+and can be reasonably considered independent and separate works in
+themselves, then this License, and its terms, do not apply to those
+345880fb 98b4 52d cbdd22a86c 4d9
+ 45 80fb798b 052d5c  d22 86c9 d9
+
+distribute the same sections as part of a whole which is a work based
+on the Program, the distribution of the whole must be on the terms of
+5ec2 7ea4f677 747d2 7aa855e2643 
+5e 287ea f6774747d b7aa85 e2 438
+entire whole, and thus to each and every part regardless of who wrote it.
+
+534ba c7 9c c75 b2b 2e6b3f 43 93
+5 4ba0c7c cc 75ab2 72e6b3 84 c93
+534
+your rights to work written entirely by you; rather, the intent is to
+exercise the right to control the distribution of derivative or
+e4ea370ef3 6f196 34fa0 a4 0b5 d4
+e4ea3
+
+In addition, mere aggregation of another work not based on the Program
+5662 78e f0e007b 50d fcde d 9c93 56627 8e f0e 07b550d4 cd b 39c93
+ 66
+a storage or distribution medium does not bring the other work under
+the scope of this License.
+
+  3. You may copy and distribute the Program (or a work based on it,
+under Section 2) in object code or executable form under the terms of
+e3b65522 1 0cc 3 7b1bb 66fe945e 
+e3b 552 2150 c2 77b bb 66f 945e9
+e3b6
+
+    a) Accompany it with the complete corresponding machine-readable
+    c60e62 62262 bcc35 1ebd 7b 9
+20e7c60e6 06226 6bc 35f1e d6 b69
+20e7
+    1 and 2 above on a medium customarily used for software interchange; or,
+
+    6b 88b34ff6a c0 e779 e 0315c
+5 de6be8 b34ff a1c ee 797e2 315c
+
+    years, to give any third party, for a charge no more than your
+    cost of physically performing source distribution, a complete
+    d2c2406e5eaefad2 f9d8 46 fe8 caecd2c2406e5 aefad2 f9d85 6c e8
+    distributed under the terms of Sections 1 and 2 above on a medium
+    customarily used for software interchange; or,
+
+    c) Accompany it with the information you received as to the offer
+    to distribute corresponding source code.  (This alternative is
+    6c926f4 546b 87e 72d423c17bc
+5 d76c926f4054 bd8 e672 42 c17
+    received the program in object code or executable form with such
+    an offer, in accord with Subsection b above.)
+
+The source code for a work means the preferred form of the work for
+making modifications to it.  For an executable work, complete source
+c67c d6b8a 7cd 1d2 cbbf82 cf7f 7
+c 7c3 6b8ae7c 71 27cbbf825 f7ff 
+c6
+associated interface definition files, plus the scripts used to
+control compilation and installation of the executable.  However, as a
+901d29d 2cd7d16cfb 559 d51f33 7a
+9 1d29d82cd7d 6cfb 559 d51f339
+anything that is normally distributed (in either source or binary
+form) with the major components (compiler, kernel, and so on) of the
+f66da6c06 e0f8df 45 ea775 e18 84
+f66da6c 66e0f df345a a775 e18884
+f6
+itself accompanies the executable.
+
+e8 ff760216322a 8c a37093d0de 65 e81ff7 0216 22 d8c0 37 93d0de66
+access to copy from a designated place, then offering equivalent
+access to copy the source code from the same place counts as
+a3a9b1b4adbf ae dab ce37e7 03be2 a3a9 1b4adb 1ae8d b7ce37e 703 e2
+
+compelled to copy the source along with the object code.
+
+  ec 51b 419 b46 846d9 598e3a5 1
+13ec551b5 19 b463846d96 98e a571
+13
+except as expressly provided under this License.  Any attempt
+otherwise to copy, modify, sublicense or distribute the Program is
+04e0a 628 9c58 0beb7501c5c5f 7f1
+04e0a 6281 c58a0b b7501 5c5f 7f1
+04e0
+However, parties who have received copies, or rights, from you under
+this License will not have their licenses terminated so long as such
+afaf01f 077d04 c3 9da7 f66cfd259
+a
+
+  5. You are not required to accept this License, since you have not
+639561 e1b  6f3337bd 8c0d048 78a
+ 395617 1bf 6f3337bd38 0d 48078a 63
+distribute the Program or its derivative works.  These actions are
+prohibited by law if you do not accept this License.  Therefore, by
+75a5345f5 0f 84d14b4b2e02 15e f1
+75a5 45f 60f 84d1 b4b2e 2d 5e1
+Program), you indicate your acceptance of this License to do so, and
+all its terms and conditions for copying, distributing or modifying
+adc 6f4973d fc 0efb5 0f4a1 37 5a
+
+
+  6. Each time you redistribute the Program (or any work based on the
+b8dab6f9b 702 14bce162d 518201ca
+b8da 6f9b1702 1 bce162d 5182 1ca
+original licensor to copy, distribute or modify the Program subject to
+these terms and conditions.  You may not impose any further
+3feaafc8c40a 3c 516 5a0c623e100 
+3feaafc c4 a43 3516e5 0c623e1 09
+3fea
+You are not responsible for enforcing compliance by third parties to
+this License.
+
+  7. If, as a consequence of a court judgment or allegation of patent
+infringement or for any other reason (not limited to patent issues),
+39129cb352 6f0 0691180 48 991 f4
+39129 b3 2e6f0 069118 3486991af 
+3
+otherwise) that contradict the conditions of this License, they do not
+excuse you from the conditions of this License.  If you cannot
+6b2556ba1b e4 5e f5 4ff258f fb32
+6b2556ba1 3e4e e0f594ff258 dfb32 6b25
+License and any other pertinent obligations, then as a consequence you
+may not distribute the Program at all.  For example, if a patent
+9e23f6d 00159 c69 4ba00f 5e848e0
+9e23 6d400159dc6964 a0 f45 848e0
+9 23
+all those who receive copies directly or indirectly through you, then
+the only way you could satisfy both it and this License would be to
+80ec136 244dc3c5 fdce 1ff871082f
+8 ec 36d 44dc3c59
+
+If any portion of this section is held invalid or unenforceable under
+085 f0033c95dc 008ef3b6b78bb 4a5 0854f00 3c 5dc 008ef3b b7 bb54a5
+0 54
+apply and the section as a whole is intended to apply in other
+circumstances.
+
+It is not the purpose of this section to induce you to infringe any
+patents or other property right claims or to contest validity of any
+918c 4da8366 6b63 b07278f 11f 37
+ 18c1 da83666 b6 6b07278f61 f23
+integrity of the free software distribution system, which is
+implemented by public license practices.  Many people have made
+40a1df12 0c45a38c7478b 8f ca8 c1
+4 a1df1 20 45a38c74 8ba8f9ca8bc
+through that system in reliance on consistent application of that
+system; it is up to the author/donor to decide if he or she is willing
+00 75951581a2 f77c15dd 8f98fc8 0
+0 f7595 581a20 77c 5 de8f98fc 40
+00f
+impose that choice.
+
+5e6a e79b55c 4d 4e177cb4 b3 f740 5e6aae79b5 cc4d4 e177 b4 b39f740
+ e6
+be a consequence of the rest of this License.
+
+  19 50 0a6 35f322a91c67 f7d64c 
+bd 9b 060 6935f32 a9 c677f7d64c 
+b
+certain countries either by patents or by copyrighted interfaces, the
+original copyright holder who places the Program under this License
+c9a 376 d9 77327725 7e91bbce7225 c9a5376bd987 32772597e9 bbce7225
+
+those countries, so that distribution is permitted only in or among
+countries not thus excluded.  In such case, this License incorporates
+055 56e9984c5d 4b 0b ee9f566 76 
+05 456e 98 c5dd bb0b9ee9
+
+  9. The Free Software Foundation may publish revised and/or new versions
+ec cdb cc4f912 a4a9b3 7607861 65
+e 9cdb cc f912e  a9b3 760 861e65
+e 9cdb
+be similar in spirit to the present version, but may differ in detail to
+address new problems or concerns.
+
+Each version is given a distinguishing version number.  If the Program
+specifies a version number of this License which applies to it and "any
+fc172 5114d46b7 454 66f0 99e 20e
+fc 72 5114d46b7 454 66f0f 9e5 0e
+fc17225
+either of that version or of any later version published by the Free
+Software Foundation.  If the Program does not specify a version number of
+a108 e814e907 4d6 296 026535 2f1 a1089e8 4e90 04d602968 26 352 f1
+a 089e814e
+Foundation.
+
+  aaf db 88d 4e62 68 6826d9fa5f1 e1aaf db 88d 4e62068 6826 9fa5f 
+e1a
+programs whose distribution conditions are different, write to the author
+to ask for permission.  For software which is copyrighted by the Free
+f2d7cb33 ec6327fc6b3 1fd63 f2 fc
+ 2d7c 33dec632 fc6b381fd63 f2 fc
+f2d7cb
+make exceptions for this.  Our decision will be guided by the two goals
+of preserving the free status of all derivatives of our free software and
+3f 2ef88eb23 351 df4ee8c c65 9c2
+3 92 f88eb23b 515df4ee8c
+
+                            NO WARRANTY
+
+  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY
+FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN
+1e88f9c42 270f74 93 a7f8e4d 34d 
+1e88f9c4 c270f74 933a7f e4d23 dd
+1e88
+PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED
+OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+72ef76f62ee98cf c1b 203732c f3c 
+ 2ef76f62ee 8cf7c1b5  373 c5f3ce 72ef 6f
+TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE
+PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,
+5efb5d 5c f1019498eda
+
+  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+c751 ced 9fbcb4376 9a1ec7b 63 ae
+ 751ac d89fb b43 699 1ec7b6 34ae
+c
+REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,
+INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING
+118 3b 606 3d7 74 c3e5545e7 8c 6
+1 853 f60603d 074bc3e554 e77 ca6 11853bf
+TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY
+YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER
+3c6ae7b924 1449 c3 44ad 97d4d4 6
+ c6ae7 924d1 49d 3e44 dd97d4d f6 3c6
+POSSIBILITY OF SUCH DAMAGES.
+
+                     ee4 92 ba38
+ b79 d9782eea5d
+
+            How to Apply These Terms to Your New Programs
+
+  If you develop a new program, and you want it to be of the greatest
+possible use to the public, the best way to achieve this is to make it
+5ff9 39b35b6f 7f86f e0160ff0 1c1 5ff9539b35b6 57f 6ffe01 0ff04 c1
+5f 9539b3
+
+  To do so, attach the following notices to the program.  It is safest
+df 09bd38 aca0 b1 633 4b7da d3 7
+df 09bd38 aca0 b1 6339 b7da5d397
+d
+convey the exclusion of warranty; and each file should have at least
+the "copyright" line and a pointer to where the full notice is found.
+
+    <one line to give the program's name and a brief idea of what it does.>
+    Copyright (C) <year>  <name of author>
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    15b 9dc5 30e67a10 8ddc42cf40
+ 4c415b 9dc5a30 6 a1 c8d c42cf40
+ 4c
+    (at your option) any later version.
+
+    2651 c5825a6 c7 af04505d692 
+b d72 518c 825a 3c 0af0 50 d6924
+b
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    3f7 2d7e30b fd99a9 f06a2c0 2
+e 523f 82d7e30b
+
+    You should have received a copy of the GNU General Public License along
+    d817 7b54 3f82f5bd 6e 8ec0 f
+15f d8 737 5473 82f5bd36 78ec0cf
+15f d8173
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+e789 60c f9f2a49d541 b3 3d0 c9 0
+e7896 0c2 9f a49d541bb3 3d0 c990
+ 78966
+
+If the program is interactive, make it output a short notice like this
+e95f ff a6a4f1 fe 6a 1db4d52100c e95fc
+
+    Gnomovision version 69, Copyright (C) year name of author
+    b97ccf6952b dc054 2136 cf3fa
+b7a8 97 cf6952b3d 054 21363cf fa
+b a8b97 cf6
+    This is free software, and you are welcome to redistribute it
+    under certain conditions; type `show c' for details.
+
+The hypothetical commands `show w' and `show c' should show the appropriate
+parts of the General Public License.  Of course, the commands you use may
+0d e49ee0 0da0f83cb 35e97 8809 3
+0d1 49 e0d da0f8 cb3 5e97 88096 
+0d1 49
+mouse-clicks or menu items--whatever suits your program.
+
+f61 631c43 6bdc 175 92d7 d71bf14
+ 61e 31c 346b c4 7 c92d70d71bf 4
+ 61e6
+school, if any, to sign a "copyright disclaimer" for the program, if
+necessary.  Here is a sample; alter the names:
+
+  Yoyodyne, Inc., hereby disclaims all copyright interest in the program
+  `Gnomovision' (which makes passes at compilers) written by James Hacker.
+
+  <signature of Ty Coon>, 1 April 1989
+  Ty Coon, President of Vice
+
+This General Public License does not permit incorporating your program into
+proprietary programs.  If your program is a subroutine library, you may
+4f20898c 0f 99ec 364c66 ae 2f0a2
+ f20898c 0f599ecf364 66aaed2f0a2
+ f208 8ce
+library.  If this is what you want to do, use the GNU Lesser General
+Public License instead of this License.

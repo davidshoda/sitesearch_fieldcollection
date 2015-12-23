@@ -1,0 +1,10 @@
+91b8 d 7775 29d2fb cd697 6978f5d
+91 8
+description = Adds field collection items during site search indexing.  
+core = 7.x
+571f55d56a6095 f 1f04be034d2a520
+5
+
+files[] = sitesearch_fieldcollection.module
+0
+datestamp = "1449455339"

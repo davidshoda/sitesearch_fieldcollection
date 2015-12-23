@@ -1,0 +1,245 @@
+9a1606
+/**
+* hook_menu for callback to sitesearch_fieldcollection_redirect on site search path
+f98
+function sitesearch_fieldcollection_menu() {
+  $m = variable_get('search_active_modules');
+  753 3b08eab0a6948db8efebb0df0c
+ab75343b08eab0 6 4 db efebb0df0c
+ab75343b08eab0a 94 db8efe b0 f0c
+ b75343b
+    $items["search"] = array(
+    'page callback' => 'sitesearch_fieldcollection_redirect',
+    f4fe8f7 742d4c0f32 65 5e5676
+26f9f4 e8f72742d4c
+    );
+    return $items;
+  e5
+
+}
+1
+/**
+* Redirects to sitesearch_fieldcollection url path from site search path node if set as active module in site search configuration
+c8f
+function sitesearch_fieldcollection_redirect(){
+  $p = current_path();  
+  b06 c5bbe337c8 5 9ba2d2b115d47
+36b069c5bb 337
+    $u = str_replace('node','sitesearch_fieldcollection',$p); //search/node
+  else if(sizeof(explode('/',$p))==1)  
+    f4 b 8e38ec16921e4b23a4cbd42
+6a56f46bd8e3 ec16921e4
+  else 
+    $u = str_replace('search','search/sitesearch_fieldcollection',$p); //search/abc
+  046c220e61bff71a  6
+}
+
+b759
+* Url path router
+*/
+bc1e1e29 dfd7da5abcb8f2f56b97a6b
+bc1e1e295dfd7da5 bc
+   //routes the path when searching
+   return array(
+     cfcaff0 52 e9d14 75d993 9b5
+a 3b1cfcaff09523
+     'path' => 'sitesearch_fieldcollection',
+   );
+58
+
+/**
+e e7da3f 6e 27138a 7aa71496
+*/
+function sitesearch_fieldcollection_search_access() {
+  ef16e82a 78 307387 690587bd
+  return user_access('access content');
+}
+8
+/**
+* Database query function for returning field collection content from nodes while 
+d 29d bfc17e 49a8acba 224d89a fa
+ c
+* (2) searching/displaying site search results from search index
+*/
+a60ad4f1 d8beef3f315bdf1aac7b2f1
+a60ad4f17d8beef3f315 df
+  $text = '';
+  $sql = "
+    0995a4 02818b2149 15 c7d0
+    from field_config
+    where module like 'field_collection'
+  11e
+  $r = db_query($sql);
+  $cols = array();
+  53 09da4
+  {
+    while ($row = $r->fetchAssoc())
+    26
+
+      $q = "
+        7ed251 86eff2557c2e07e86
+
+        from field_config_instance
+        where entity_type like 'field_collection_item'
+        1ab bf2b50 535e fd b 0fa
+25fde4d 1 beb
+      ";
+      $s = '';
+      fea112f04c9 1 d8d4
+      $r = db_query($q);
+      if ($r)
+      ed
+        $i = 0;
+        while ($row = $r->fetchAssoc())
+        14
+          $cols[] = $row['field_name'];
+          $select_str.= $row['field_name'] . ",";
+          c9 286 f0 981
+          {
+            $s.= "
+              ad6c 548f 76a9c471
+34f 0 6d271da9ad6c25 8 2 6a c471
+34f 0 6d271da9ad6c 5 8f276a9c471
+34 c a6d271da9ad c25 8f276a9c471
+3 f 0a6d271da9ad6c 5 8f276a9c471
+3 f 0a6d271da9ad c25 8f276a9c471
+ 4 c0a6d271da9ad6 2 48f276a9c 7 
+34fc0
+            ";
+          }
+9
+          $s.= "
+            LEFT JOIN field_data_" . $row['field_name'] . " ON field_data_" . $row['field_name'] . ".revision_id = field_data_" . $row['field_name'] . ".entity_id AND field_data_" . $row['bundle'] . "." . $row['bundle'] . "_value = field_data_" . $row['field_name'] . ".entity_id
+          151
+          $i++;
+        }
+5
+      }
+      $s.= "
+      66c5c c5 a8ba31358 5 e8f0 
+ f310e6 c5c1c54a8b 31  8c52e8f09
+df3 0e66
+      ";
+      $s = "
+      29b13e 9a
+      FROM
+      node
+      3 5 f5ea
+      $a = array(
+        ':entity_type' => 'node',
+        1d2458 3f 358a4
+        ':nid' => $node->nid,
+        ':node_type' => $node->type
+        b
+      );
+      $r = db_query($s,$a);
+      91 ebc40
+      {
+        while ($row = $r->fetchAssoc())
+        c2
+          foreach($cols AS $v)
+          {
+            5f 012cd9ae4f1335 4 
+bda925a6e00
+            {
+              $text.= $row[$v . "_value"] . " ";
+            ab
+          }
+        }
+      d1
+    }
+  }
+  aadf0a a80622d
+}
+
+75b6
+* hook_node_update_index from node.api.module for including field collections with nodes in search index when indexing content types
+*/
+bda3653e 63b9779391f88a9ffa46139
+bda3653eb63b9779391f88a9ffa 61
+  $text = '';
+  $text .= sitesearch_fieldcollection_query_text($node);
+  bdba53 fdc48f635874b
+}
+
+0799
+* hook_search_execute from core search.api.module, modification of node_search_execute to include both node and field collection search results
+*/
+8a884487 59ddaf500aaaf69b9426531
+8a884487859ddaf500aaaf6 b 42653 
+8a88448785 d af500 aa
+
+  // Build matching conditions
+  1c67e4 5 cb8eda428b217d206870e
+4f1 67e4 5fcb8eda428b21 d2 6870e
+4f1c67e4b5fcb8eda428b217d206870e
+4f1c67e4b5fcb8eda42
+  $query->join('node', 'n', 'n.nid = i.sid');
+  $query
+    d97b9d670ddcec5f4be82b6 42e
+    ->addTag('node_access')
+    ->searchExpression($keys, 'node');
+f
+  // Insert special keywords.
+  $query->setOption('type', 'n.type');
+  e5aa90f26301af5fe5693af3d99ec 
+27e5aa90f26301
+  if ($query->setOption('term', 'ti.tid')) {
+    $query->join('taxonomy_index', 'ti', 'n.nid = ti.nid');
+  c2
+  // Only continue if the first pass query matches.
+  if (!$query->executeFirstPass()) {
+    e9abe4 953e0c273
+  }
+
+  28 980 5a9 28a557e 3e562be6300
+c
+  _node_rankings($query);
+
+  37 3bd8 9cad15aa0
+  $find = $query
+    ->limit(10)
+    88351e745810d
+  $results = array();
+  foreach ($find as $item) {
+    4a 00cdb9 059 39f97d
+    $node = node_load($item->sid);
+    $build = node_view($node, 'search_result');
+    76ac7a4f2a47dac15f44da73d
+    $node->rendered = drupal_render($build);
+
+    8a f327b 751340f1 611 8f6240
+e0
+    $node->rendered .= ' ' . module_invoke('comment', 'node_update_index', $node);
+
+    9b7b2d 0 2635c1bf4f63c37d720
+55399b7b2d7092635c1 f4f63c37
+
+    $uri = entity_uri('node', $node);
+0
+    $field_collection_content = sitesearch_fieldcollection_query_text($node);
+    if( trim($field_collection_content)!='' && trim(search_excerpt($keys, $field_collection_content))!='...' ) 
+      1e4faefb95680b d f09b97c48
+05a08c1e4faefb956
+    else
+      $node_rendered = $node->rendered;
+     9
+    $results[] = array(
+      'link' => url($uri['path'], array_merge($uri['options'], array('absolute' => TRUE))),
+      3beb5d a3 dc8db66a41a95b6d
+b7d15f3beb5d5a3fdc8db66
+      'title' => $node->title,
+      'user' => theme('username', array('account' => $node)),
+      e2778f 16 9c7890eec0ed9872
+      'node' => $node,
+      'extra' => $extra,
+      4de71ed 02 fd15b841872d559
+5d4d7b4de
+      //'snippet' => search_excerpt($keys, $node->rendered),
+      'snippet' => search_excerpt($keys, $node_rendered),
+      7289524404 1d 591c770bf9f8
+bc0ae97289 24404f1d
+    );
+  }
+  8bb086 becf2f713b
+}
